@@ -1,0 +1,240 @@
+﻿#body {
+	background-image: url('../images/background.jpg');
+}
+
+#gameLevel {
+	width: 200px;
+	height: 30px;
+	background-color: rgb(48,48,48);
+	text-align: center;
+	border: 0px groove  rgb(48,48,48);
+	border-radius:20px;
+	font-size:large;
+	font-family:Tahoma;
+	 color:white;
+	 margin-left:75px;
+	 margin-right:75px;
+	 padding-top:5px;
+}
+
+input[class="Ball2"]{
+	width: 200px;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	font-size:large;
+	font-family:Tahoma;
+	border: 1px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: white;
+	margin-left: 75px;
+	margin-top:40px;
+	margin-bottom:20px;
+	margin-right: 75px;
+}
+
+/*input[class="Ball2"]{
+	width: 200px;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	font-size:large;
+	font-family:Tahoma;
+	border: 1px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: white;
+	margin-left: 75px;
+	margin-top:40px;
+	margin-bottom:20px;
+	margin-right: 75px;
+}*/
+
+input[class="Ball1"] {
+	width: 200px;
+	height: 40px;
+	background-color:rgb(255, 216, 0);
+	text-align: center;
+	font-size: large;
+	font-family: Tahoma;
+	border: 1px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: black;
+	margin-left: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 75px;
+}
+
+.timer {
+	width: 200px;
+	height: 30px;
+	background-color: rgb(48,48,48);
+	text-align: center;
+	font-size: large;
+	font-family: Tahoma;
+	border: 2px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: whitesmoke;
+	margin-left: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 75px;
+	padding-top:5px;
+}
+
+input[class="player1"] {
+	width: 250px;
+	height: 40px;
+	background-color: rgb(48,48,48);
+	font-size: large;
+	font-family: Tahoma;
+	text-align:left;
+	border: 0px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: whitesmoke;
+	margin-left: 65px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+
+input[class="player2"] {
+	width: 250px;
+	height: 30px;
+	background-color: rgb(48,48,48);
+	font-size: large;
+	font-family: Tahoma;
+	text-align:left;
+	border: 0px groove rgb(48,48,48);
+	border-radius: 20px;
+	color: whitesmoke;
+	margin-left: 65px;
+	margin-bottom:20px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+input[class="Ball2"]:hover
+{
+	background-color:firebrick;
+}
+
+input[class="Ball1"]:hover {
+	background-color:goldenrod;
+}
+.container {
+	width: 605px;
+	height: 590px;
+	position: absolute;
+	margin-top:45px;
+	margin-right:150px;
+	margin-left:20px;
+	display:inline-block;
+
+	/*left: 15%;*/
+	
+}
+
+
+
+.table {
+	width: 605px;
+	height: 518px;
+	background-color:rgb(0, 98, 140);
+	/*margin: auto;*/
+	margin-right:140px;
+	margin-left:20px;
+	
+
+}
+
+	table tr td {
+		background-color:rgb(0, 62, 91);
+		border-style: groove;
+		border:3px solid rgb(47, 143, 212);
+		border-radius: 90px;
+	}
+
+
+	
+/******************************  end table **********************************************/
+
+
+/*************************** start ball ************************************************/
+
+.ball1 {
+	width: 80px;
+	height: 80px; 
+	border-radius: 90px;
+	display:inline-block;
+	position: absolute;
+	background-color:yellow;
+	left:90px;
+	
+	
+}
+
+.ball2 {
+	width: 80px;
+	height: 80px;
+	border-radius: 90px;
+	display: inline-block;
+	position: absolute;
+	background-color:red;
+	left: 90px;
+	display:inline-block;
+}
+
+
+.redcell {
+	background-color: red;
+}
+
+.yellowcell {
+	background-color: yellow;
+}
+
+.hovercell {
+	background-color: azure;
+}
+
+
+/* winner div  style 
+	___________________________________________________________________
+*/
+
+
+
+
+.winpop {
+	background-color: rgb(95, 95, 95);
+	width: 395px;
+	height: 250px;
+	border-radius: 115px;
+	opacity: .9;
+	position: absolute;
+	top: 30%;
+	left: 2%;
+	display: none;
+	
+}
+
+	.winpop h1 {
+		text-align: center;
+		color: white;
+		position: relative;
+		top: 45px;
+	}
+
+	.winpop button {
+		position: relative;
+		top: 39px;
+		left: 39px;
+		width: 110px;
+		height: 45px;
+		border-radius: 25px;
+		font-size: 21px;
+		margin: 25px;
+		border: 3px groove grey;
+		color: #111115;
+	}

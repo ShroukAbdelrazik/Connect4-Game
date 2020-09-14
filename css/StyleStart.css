@@ -1,0 +1,58 @@
+﻿body {
+	background-image: url('../images/background.jpg');
+}
+
+
+#cont {
+	width: 70%;
+	height: 650px;
+	position: relative;
+	margin-left: 200px;
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+
+#titleDiv {
+	width: 100%;
+	height: 400px;
+	align-content: center;
+}
+
+#bottom {
+	width: 100%;
+	height: 250px;
+	background-size: 100%;
+	background-image: url('../images/bgr.PNG');
+	background-size: cover;
+
+}
+
+input[class="startbtn"] {
+	width: 190px;
+	padding: 5px;
+	margin: 5px;
+	background-color:rgb(75, 75, 81);
+	align-content: center;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 39%;
+	border-radius: 10px 10px;
+}
+
+
+#selectplayer, #selectLevel {
+	width: 30%;
+	height: 25%;
+	align-content: center;
+	margin-left: 35%;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: larger;
+}
+
+input[class="startbtn"]:hover
+{
+	background-color:cadetblue;
+}

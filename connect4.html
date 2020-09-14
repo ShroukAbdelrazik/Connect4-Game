@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> connect four </title>
+	<script src="js/connect4.js"></script>
+	<link href="css/connect4.css" rel="stylesheet" />
+</head>
+
+<body id="body">
+
+
+	<div style="display:inline-block">
+	<img src="images/connect4.PNG" style="width:350px ;height:60px;margin-top:45px;margin-left:150px;display:block"> 
+	<div style="height:535px;width:350px;background-color:rgb(48 ,48 ,48) ;display:inline-block;margin-left:150px">
+		
+		<div  id="gameLevel">
+			game level
+		</div>
+		<input type="button" value="play as red" name="chooseBall2" class="Ball2" />
+		<input type="button" value="play as yellow " name="chooseBall1" class="Ball1" />
+		<div class="timer"> 
+
+			<span id="minute2"> 0</span>
+			<span id="minute1"> 0</span>
+			<span> : </span>
+			<span id="second2">0</span>
+			<span id="second1">0</span>
+
+		</div>
+		<input type="text" value="player1:" name="player1" class="player1" id="player1" />
+		<input type="text" value="player2:" name="player2" class="player2" id="player2" />
+		<img src="images/replay.png" onclick=" replay()" class="replay" style="width:80px;height:80px ;margin-left:75px ;margin-bottom:10px" />
+		<img src="images/exit.png" onclick="exit()" class="exit"style="width:100px;height:100px ;margin-right:40px"/>
+	</div>
+	
+	</div>
+	
+	    
+		<div class="container">
+			<div style="width:605px;height:80px;margin-left:20px;position:relative">
+				<div class="ball1"></div>
+				<div  class="ball2"></div>
+			</div>
+			<table  class="table">
+
+
+				<!--row1-->
+				<tr class="row1">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+				<!--row2-->
+				<tr class="row2">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+				<!--row3-->
+				<tr class="row3">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+
+				<!--row4-->
+				<tr class="row4">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+				<!--row5-->
+				<tr class="row5">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+				<!--row6-->
+				<tr class="row6">
+					<td class="col1"></td>
+
+					<td class="col2"></td>
+
+					<td class="col3"></td>
+
+					<td class="col4"></td>
+
+					<td class="col5"></td>
+
+					<td class="col6"></td>
+
+					<td class="col7"></td>
+
+				</tr>
+
+
+			</table>
+
+
+			<div class="winpop">
+
+				<h1> " You Are Winner "</h1>
+				<button class="playAgain" onclick="replay()">Replay</button>
+				<button class="home" onclick="exit()">Home</button>
+			</div>
+
+
+		</div>
+	
+</body>
+</html>
